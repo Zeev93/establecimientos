@@ -1,0 +1,77 @@
+$body-bg: #f8fafc;
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: $body-bg;
+}
+h1, h2, h3, h4 {
+    font-weight: 900;
+    color: $indigo;
+}
+
+#dropzone {
+    height: auto;
+}
+
+
+.text-primary {
+    color: $indigo!important;
+}
+.navbar.bg-white {
+    background-color: $indigo!important;
+
+    a {
+        color: white!important;
+    }
+}
+
+.navbar-nav .dropdown-menu {
+    background: $indigo;
+
+    a:hover {
+        background: $indigo;
+    }
+}
+
+.navbar.bg-white .navbar-brand{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+legend {
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: $indigo;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+       background-color: darken($indigo, 10);
+    }
+}
+
+.bg-primary {
+    background-color: $indigo!important;
+}
+
+.alert-primary {
+    background: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $indigo;
+}
+
+
+.dropzone .dz-preview .dz-image img {
+    display: block;
+    object-fit: scale-down;
+    width: 200px;
+}
